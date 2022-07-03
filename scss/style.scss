@@ -133,6 +133,8 @@ a{
     color: $color__text-base-one;
     border: 1px solid $color__text-base-one;
     margin-right: 30px;
+    width: 183px;
+    text-align: center;
     &:hover{
       box-shadow: 1px 1px $color__text-base-one; 
       transform: translate(-3px, -3px); 
@@ -143,6 +145,8 @@ a{
     background-color: $color__text-base-one;
     color: $color__text-base-two;
     border: 1px solid #6F6D7B;
+    width: 183px;
+    text-align: center;
     &:hover{
       box-shadow: 1px 1px $color__text-base-two; 
       transform: translate(-3px, -3px); 
@@ -157,7 +161,6 @@ a{
     padding: 15px 31.48px;
     text-transform: uppercase;
     cursor: pointer;
-    width: max-content;
     border-radius: 4px;
 }
 .title {

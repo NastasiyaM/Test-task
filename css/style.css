@@ -135,6 +135,8 @@ a {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
   margin-right: 30px;
+  width: 183px;
+  text-align: center;
 }
 
 .header-content__btn-order:hover {
@@ -148,6 +150,8 @@ a {
   background-color: #FFFFFF;
   color: #000000;
   border: 1px solid #6F6D7B;
+  width: 183px;
+  text-align: center;
 }
 
 .header-content__btn-detail:hover {
@@ -164,9 +168,6 @@ a {
   padding: 15px 31.48px;
   text-transform: uppercase;
   cursor: pointer;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
   border-radius: 4px;
 }
 
