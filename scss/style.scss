@@ -40,8 +40,24 @@ a{
 .color-accent{
     color: $color__text-accent;
 }
-
-
+.buttom{
+  display: inline-block;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 15px 31.48px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: $color__text-base-two;
+}
 
 .header {
     background-image: url(../images/background.jpg);
@@ -63,8 +79,6 @@ a{
         align-items: end;
         padding-top: 33px;
         padding-bottom: 40px;
-        
-        
     }
 }
 .logo {
@@ -76,7 +90,6 @@ a{
   &__list {
     display: flex;
     justify-content: space-between;
-
   }
   &__item {
     
@@ -153,37 +166,14 @@ a{
     transform: translate(-3px, -3px); 
   }
 }
-.buttom{
-    display: inline-block;
-    font-weight: 400;
-    font-size: 13px;
-    padding: 15px 31.48px;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 4px;
-    text-align: center;
-}
-.title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-    text-transform: uppercase;
-    color: $color__text-base-two;
-}
-
-
 
 //
-
-
 
 .order-registration {
   background-image: url(../images/order-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
 
   &__title {
     color: $color__text-base-one;
@@ -284,9 +274,7 @@ a{
   }
 }
 
-
 //селект
-
 
 .select {
   position: relative;
@@ -391,7 +379,6 @@ a{
     display: flex;
     justify-content: space-between;
     padding-bottom: 16.44px;
-    
   }
   &__text {
     font-weight: 400;
@@ -429,7 +416,6 @@ a{
 
 //
 
-
 .file {
   position: relative;
   text-align: center;
@@ -459,7 +445,6 @@ a{
     width: 0;
   }
   &__file-icon-wrapper {
-    
   margin-right: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -514,8 +499,6 @@ a{
 .payment {
 
   &__items {
-    
-    
     &::before{
       content: url(../images/line.svg);
       padding-right: 40px;
@@ -532,8 +515,6 @@ a{
     padding-left: 35px;
   }
 
-  
-  
   &__name {
     width: 100%;
     padding-left: 8px;
@@ -542,8 +523,6 @@ a{
 }
 .social {
   &__items {
-    
-    
   }
   &__item {
     align-items: center;
@@ -572,7 +551,6 @@ a{
 }
 
 
-
 // adaptive
 @media (max-width: 1280px){
   .header-top__content {
@@ -582,9 +560,7 @@ a{
   .header-content__wrapper{
     padding-left: 10px;
   }
-  .range__value{
-    padding-right: 10px;
-  }
+  
   .range__value{
     padding-right: 25px;
   }

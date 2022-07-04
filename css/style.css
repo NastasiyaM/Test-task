@@ -36,6 +36,26 @@ a {
   color: #42A9ED;
 }
 
+.buttom {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 15px 31.48px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .header {
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
@@ -162,26 +182,6 @@ a {
           box-shadow: 1px 1px #000000;
   -webkit-transform: translate(-3px, -3px);
           transform: translate(-3px, -3px);
-}
-
-.buttom {
-  display: inline-block;
-  font-weight: 400;
-  font-size: 13px;
-  padding: 15px 31.48px;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 58px;
-  text-transform: uppercase;
-  color: #000000;
 }
 
 .order-registration {
@@ -614,9 +614,6 @@ a {
   }
   .header-content__wrapper {
     padding-left: 10px;
-  }
-  .range__value {
-    padding-right: 10px;
   }
   .range__value {
     padding-right: 25px;
