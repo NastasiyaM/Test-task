@@ -125,35 +125,34 @@ a{
         left: -5px;
     }
   }
-  &__box-buttom{
+  &__buttom{
     padding-bottom: 202px;
   }
-  &__btn-order{
-    background-color: $color__text-accent;
-    color: $color__text-base-one;
-    border: 1px solid $color__text-base-one;
-    margin-right: 30px;
+  &__btn{
     width: 183px;
-    text-align: center;
-    &:hover{
-      box-shadow: 1px 1px $color__text-base-one; 
-      transform: translate(-3px, -3px); 
-      
-    }
   }
-  &__btn-detail{
-    background-color: $color__text-base-one;
-    color: $color__text-base-two;
-    border: 1px solid #6F6D7B;
-    width: 183px;
-    text-align: center;
-    &:hover{
-      box-shadow: 1px 1px $color__text-base-two; 
-      transform: translate(-3px, -3px); 
-    }
+  &__btn + &__btn{
+    margin-left: 30px;
   }
 }
-
+.btn-order{
+  background-color: $color__text-accent;
+  color: $color__text-base-one;
+  border: 1px solid $color__text-base-one;
+  &:hover{
+    box-shadow: 1px 1px $color__text-base-one; 
+    transform: translate(-3px, -3px);  
+  }
+}
+.btn-detail{
+  background-color: $color__text-base-one;
+  color: $color__text-base-two;
+  border: 1px solid #6F6D7B;
+  &:hover{
+    box-shadow: 1px 1px $color__text-base-two; 
+    transform: translate(-3px, -3px); 
+  }
+}
 .buttom{
     display: inline-block;
     font-weight: 400;
@@ -162,6 +161,7 @@ a{
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 4px;
+    text-align: center;
 }
 .title {
     font-style: normal;
@@ -227,11 +227,11 @@ a{
       content: none;
     }
   }
-  &__item-img {
+  &__img {
     padding-bottom: 20px;
     
   }
-  &__item-info {
+  &__info {
     
   }
 }
@@ -673,7 +673,7 @@ a{
     padding-top: 200px;
     padding-bottom: 75px; 
   }
-  .header-content__box-buttom {
+  .header-content__buttom {
     padding-bottom: 150px;
   }
   .form-order__info {
@@ -728,7 +728,10 @@ a{
   }
   .work__item::before {
     right: -50px;
-}  
+} 
+.work__item:nth-child(4)::before{
+  right: -130px;
+  } 
 .payment__items::after {
   padding-left: 40px;
 }
@@ -745,7 +748,7 @@ a{
     font-size: 40px;
   }
   
-  .header-content__box-buttom {
+  .header-content__buttom {
     padding-bottom: 110px;
 }
     
@@ -884,6 +887,9 @@ a{
   .work__item::before {
     right: -80px;
 }
+.work__item:nth-child(4)::before{
+  right: -110px;
+  } 
 //
 
 .footer__payment {
@@ -913,11 +919,14 @@ a{
   .header-content__items {
     padding-bottom: 70px;
   }
-  .header-content__box-buttom {
+  .header-content__buttom {
     padding-bottom: 90px;
 }
 .work__item::before {
   right: -95px;
+}
+.work__item:nth-child(4)::before {
+  right: -100px;
 }
 }
 
@@ -933,6 +942,14 @@ a{
   .menu__link {
     padding: 18px 30px;
   }
+  
+  .header-content__btn + .header-content__btn {
+    margin-left: 0px;
+  }
+  .header-content__btn {
+    margin-bottom: 20px;
+  }
+
   .order-registration__title {
     padding-top: 74px;
 }
@@ -970,12 +987,10 @@ a{
   .header-content__items {
     padding-bottom: 60px;
   }
-  .header-content__box-buttom {
+  .header-content__buttom {
     padding-bottom: 80px;
   }
-  .header-content__btn-order {
-    margin-right: 5px;
-  }
+  
   .header-content__item {
     font-size: 18px;
   }
@@ -1035,13 +1050,11 @@ a{
   .header-content__items {
     padding-bottom: 40px;
   }
-  .header-content__btn-order {
-    margin-right: 0px;
-  }
+  
   .header-content__wrapper {
     padding-left: 10px;
 }
-  .header-content__btn-order {
+  .header-content__btn {
     width: 270px;
     text-align: center;
     margin-bottom: 15px;
@@ -1051,7 +1064,7 @@ a{
     text-align: center;
     margin-bottom: 15px;
   }
-  .header-content__box-buttom{
+  .header-content__buttom{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
