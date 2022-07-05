@@ -408,7 +408,15 @@ a{
 }
 
 //
-
+.registration-title{
+  color: $color__text-base-one;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 43px;
+  @media (max-width: 320px){
+    font-size: 30px;
+  }
+}
 .order-registration {
   background-image: url(../images/order-bg.jpg);
   background-repeat: no-repeat;
@@ -416,10 +424,6 @@ a{
   background-position: center;
 
   &__title {
-    color: $color__text-base-one;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 43px;
     text-align: center;
     padding-top: 121px;
     padding-bottom: 30px;
@@ -444,6 +448,9 @@ a{
     }
     @media (max-width: 375px){
       padding-bottom: 45px;
+    }
+    @media (max-width: 320px){
+      font-size: 16px;
     }
   }
   &__work {
